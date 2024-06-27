@@ -1,8 +1,8 @@
 package parser
 
 import (
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/text"
+	"github.com/krazybee/goldmark/ast"
+	"github.com/krazybee/goldmark/text"
 )
 
 type codeSpanParser struct {

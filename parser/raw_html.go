@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"regexp"
 
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/krazybee/goldmark/ast"
+	"github.com/krazybee/goldmark/text"
+	"github.com/krazybee/goldmark/util"
 )
 
 type rawHTMLParser struct {

@@ -3,9 +3,9 @@ package goldmark_test
 import (
 	"testing"
 
-	. "github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/testutil"
+	. "github.com/krazybee/goldmark"
+	"github.com/krazybee/goldmark/parser"
+	"github.com/krazybee/goldmark/testutil"
 )
 
 func TestAttributeAndAutoHeadingID(t *testing.T) {

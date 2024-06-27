@@ -2,7 +2,8 @@ package text
 
 import (
 	"bytes"
-	"github.com/yuin/goldmark/util"
+
+	"github.com/krazybee/goldmark/util"
 )
 
 var space = []byte(" ")

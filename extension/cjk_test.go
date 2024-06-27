@@ -3,9 +3,9 @@ package extension
 import (
 	"testing"
 
-	"github.com/yuin/goldmark"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/testutil"
+	"github.com/krazybee/goldmark"
+	"github.com/krazybee/goldmark/renderer/html"
+	"github.com/krazybee/goldmark/testutil"
 )
 
 func TestEscapedSpace(t *testing.T) {

@@ -4,11 +4,11 @@ package goldmark
 import (
 	"io"
 
-	"github.com/yuin/goldmark/parser"
-	"github.com/yuin/goldmark/renderer"
-	"github.com/yuin/goldmark/renderer/html"
-	"github.com/yuin/goldmark/text"
-	"github.com/yuin/goldmark/util"
+	"github.com/krazybee/goldmark/parser"
+	"github.com/krazybee/goldmark/renderer"
+	"github.com/krazybee/goldmark/renderer/html"
+	"github.com/krazybee/goldmark/text"
+	"github.com/krazybee/goldmark/util"
 )
 
 // DefaultParser returns a new Parser that is configured by default values.

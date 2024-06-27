@@ -8,9 +8,9 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/yuin/goldmark/ast"
-	"github.com/yuin/goldmark/renderer"
-	"github.com/yuin/goldmark/util"
+	"github.com/krazybee/goldmark/ast"
+	"github.com/krazybee/goldmark/renderer"
+	"github.com/krazybee/goldmark/util"
 )
 
 // A Config struct has configurations for the HTML based renderers.
