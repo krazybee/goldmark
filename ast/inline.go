@@ -406,6 +406,8 @@ func NewLink() *Link {
 // An Image struct represents an image of the Markdown text.
 type Image struct {
 	baseLink
+	Data     []byte
+	FileName string
 }
 
 // Dump implements Node.Dump.
