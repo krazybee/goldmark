@@ -219,8 +219,9 @@ func MergeOrReplaceTextSegment(parent Node, n Node, s textm.Segment) {
 type String struct {
 	BaseInline
 
-	Value []byte
-	flags uint8
+	Value       []byte
+	flags       uint8
+	IsHighlight bool
 }
 
 // Inline implements Inline.Inline.
